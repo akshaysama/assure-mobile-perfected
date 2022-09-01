@@ -129,7 +129,7 @@ max-width: 100%;
 .try-azure-for-free-container{
     margin-top: 12px;
     border: 1px solid #0078d4;
-    width: 65%;
+    width: 67%;
     padding-top: 11px;
     padding-bottom: 11px;
     padding-right:21px;
@@ -268,7 +268,10 @@ max-width: 100%;
 }
 .h2-class-second-section{
     font-size: 20px;
-    max-width: 306px;
+    padding-left: 13px;
+    padding-right:13px;
+     padding-bottom: 36px;
+    margin: 0 auto;
 }
 .class-button{
    background: transparent;
@@ -510,6 +513,7 @@ margin-bottom:-3px;
     height:73px;
     background-color:#fff;
     position: absolute;
+    border:none;
     left:40%;
     border-radius: 100%;
     top:35%;
@@ -719,4 +723,53 @@ body{
     font-size:20px;
     color:#4c4c51;
 }
-/* @media only screen and (max) */
+@media only screen and (min-width:770px){
+    .hamberger-menu-button{
+        display:none;
+    }
+    .header-first-flex-box-container{
+        display:none;
+    }
+
+    .header-windows-icon{
+    display:none;
+       }
+       .header-search-button-container{
+                display:none;
+       }
+       .class-for-header-container-media{
+        width: 100x;
+        height: 100px;
+       }
+       .header-svg-container{
+              height:100px;
+              width: 100px;
+       }
+      .header-main-class{
+        padding:0px 0px;
+      }
+      .class-for-header-container-media{
+        /* display: flex;
+        flex-direction: row; */
+        width: 24px;
+        height: 24px;
+      }
+      .test-ono{
+        display: flex;
+        flex-direction: row;
+      }
+      .button-header{
+        display: flex;
+        flex-direction: row;
+        padding-left: 200px;
+      }
+    }
+    
+    @media screen and (max-width:769px){
+        .class-for-header-container-media{
+            display:none;
+        }
+        .header-span-windows-icon{
+            display:none
+        }
+    }
