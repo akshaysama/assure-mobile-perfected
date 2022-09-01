@@ -729,16 +729,58 @@ body{
     .header-first-flex-box-container{
         display:none;
     }
-
+    .header-button-row-container{
+        border: none;
+        background-color: transparent;
+        padding: 4px;
+    }
+    .three-dots{
+        width: 29px;
+    }
+    .anchor-tag-container-media{
+        position: absolute;
+    }
+          
     .header-windows-icon{
     display:none;
-       }
+    height: 50px;
+    width: 50px;
+    width:73px;
+    position:relative;
+    margin-right: 4px;
+}
        .header-search-button-container{
                 display:none;
+       }
+       .search-botton-container-media{
+        padding-left: 280px;
+       }
+       .button-search{
+        background-color: transparent;
+        border: none;
+        transform: rotateY(180deg);
+        padding-top: 3px;
+        right:102px;
+        position:absolute;
+        
+       }
+       .assure-text{
+        padding-left: 14px;
        }
        .class-for-header-container-media{
         width: 100x;
         height: 100px;
+        margin-left: 6px;
+       }
+       .assure-txt{
+        text-decoration: none;
+        color: black;
+        padding-left: 13px;
+       }
+       .href-inside{
+        font-size: 14px;
+        text-decoration: none;
+        color: #2e2e33;
        }
        .header-svg-container{
               height:100px;
@@ -748,19 +790,49 @@ body{
         padding:0px 0px;
       }
       .class-for-header-container-media{
-        /* display: flex;
-        flex-direction: row; */
+        display: flex;
+        flex-direction: row;
         width: 24px;
         height: 24px;
       }
       .test-ono{
         display: flex;
         flex-direction: row;
+        padding-right: 12px;
       }
-      .button-header{
-        display: flex;
+      .span-svg-container{
+        padding-right: 29px;
+      }
+      .buttons-header{
+        display: inline-flex;
         flex-direction: row;
-        padding-left: 200px;
+        padding-left: 68px;
+      }
+      .black-arrow-p{
+        height: 10px;
+        width: 10px;
+        fill: black;
+        transform: rotateX(180deg);
+        margin-top: 9px;
+      }
+      .three-dots{
+        position: absolute;
+        right: 32px;
+        top: 7px;
+        width: 23px;
+
+      }
+      #svg-windows{
+        width: 24px;
+        height: auto;
+      }
+      .header-windows-icon-media{
+        width: 24px;
+      }
+      .anchor-tag-container-media{
+        position: absolute;
+        right: 6px;
+        top:14px;
       }
     }
     
