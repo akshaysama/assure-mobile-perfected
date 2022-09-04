@@ -994,7 +994,8 @@ body{
         }
         .grid-element-ptag{
             line-height: 1.5;
-            margin:12px 8px;
+            margin-bottom: 39px;
+            font-size: 16px;
         }
         .after-grid-box{
             width:186px;
@@ -1013,17 +1014,21 @@ body{
         }
         #class-button{
             font-size: 16px;
+            border-left: 4px solid blue;
         }
         .class-button{
             font-weight: 100;
             color: #4c4c51;
+            height: 49px;
+            padding-left: 12px;
+            margin-left: -10px;
         }
         .grid{
             column-gap: 30px;
             row-gap: 24px;
         }
         .section-grid{
-            padding: 24px;
+            padding: 20px;
             height: 255px;
         }
         #iot{
@@ -1036,7 +1041,7 @@ body{
             padding-left: 6px;
         }
         .popular-div-secton{
-            padding-left: 15px;
+            padding-left: 20px;
         }
 
 
