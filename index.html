@@ -97,6 +97,13 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="black-arrow-p" viewBox="0 0 16 16" id="IconChangeColor"> <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" id="mainIconPathAttribute" stroke-width="0" stroke="#ff0000"></path> </svg>
                   </div>
                </div>
+               <form class="header-search-bar">
+                <input class="input-search-header" type="text" placeholder="Search">
+                <button class="button-search-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="search-header" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" id="mainIconPathAttribute" filter="url(#shadow)"></path> <filter id="shadow"><feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black"></feDropShadow></filter><filter id="shadow"><feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black"></feDropShadow></filter></svg>
+                   </button>
+
+               </form>
                <div class="search-button-container-media">
                    <button class="button-search">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" id="mainIconPathAttribute" filter="url(#shadow)"></path> <filter id="shadow"><feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black"></feDropShadow></filter><filter id="shadow"><feDropShadow id="shadowValue" stdDeviation=".5" dx="0" dy="0" flood-color="black"></feDropShadow></filter></svg>
@@ -124,6 +131,7 @@
             </div>
         </div>
         <div class="next-section-container">
+            <div class="patch-one">
             <picture>
                 <source type="image/webp" srcset="https://azurecomcdn.azureedge.net/cvt-ef2d9e33a466a78ef0bef9c2c88d1fb9918d82b23ed691a995be7de02a7843bf/images/page/home/hero-desktop.webp" media="(min-width:961px)">
                 <source type="image/webp" scrset="https://azurecomcdn.azureedge.net/cvt-ef2d9e33a466a78ef0bef9c2c88d1fb9918d82b23ed691a995be7de02a7843bf/images/page/home/hero-tablet.webp" media="(min-width:768px)">
@@ -160,7 +168,9 @@
                         </span>
                     </div>              
             </div>
+            <div class="for-breaking"></div>
         </div>
+    </div>
         <section class="new-section-main-container">
             <div class="new-section-child-container">
                 <h2>
@@ -173,7 +183,7 @@
                 </div>
                 <div class="grid-main" style="grid-row:1/3;">
                 <div class="new-section-first-element-text-container for-padding">
-                    <h2 class="new-section-text">
+                    <h2 class="new-section-text" id="new-section-test">
                         Accelerate innovation anywhere with Azzure Arc.
                     </h2>
                     <p class="ptag-text-bottom">
@@ -184,9 +194,9 @@
             </div>
             <div class="new-section-section   page-one">
                 <div class="new-section-img-two"></div>
-                <picture class="media-image">
+                <picture class="media-image" id="media-image">
                     <source class="sec-image-source" type="image/webp" srcset="//azurecomcdn.azureedge.net/cvt-fd2414f5ea9d56832851d60ff2d20c3d07cf2953323fd82ec078346eaee0781f/images/page/home/empower.webp">
-                    <img src="//azurecomcdn.azureedge.net/cvt-fd2414f5ea9d56832851d60ff2d20c3d07cf2953323fd82ec078346eaee0781f/images/page/home/empower.png" alt="" loading="lazy">
+                    <img src="//azurecomcdn.azureedge.net/cvt-fd2414f5ea9d56832851d60ff2d20c3d07cf2953323fd82ec078346eaee0781f/images/page/home/empower.png" alt="" loading="lazy" class="media-img-img">
                 </picture>
                 <div class="flex-text-container">
                 <h2 class="new-section-text   new-section-txt   for-padding" >
@@ -298,6 +308,17 @@
             </div>
      
          </div>
+         <div class="media-imag-second-section">
+            <img class="media-section-image-after-grid" src="https://azurecomcdn.azureedge.net/cvt-0747fe673b2e8ca5993409bc08d252e543aa7f50e5fa3d6409c621fbdd48b5c7/images/page/home/portal-screenshots/featured.png">
+        </div>
+        <div class="ancher-tag-after-grid">
+            <svg id="left-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0062ad" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg>
+            <a class="anchor-tag-grid-after" href="">
+                View Assure portal screenshots in fullscreen
+            </a>
+         </div>
           </div>
           <div class="popular-div-secton" id="popular-div-section">
             <div class="second-class-popular  after-grid-box"  id="hide-one">
@@ -343,7 +364,7 @@
         </div>
     </div>
          </div>
-         <div class="ancher-tag-after-grid">
+         <div class="ancher-tag-after-grid"  id="hide-img">
             <svg id="left-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0062ad" class="bi bi-arrow-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
               </svg>
