@@ -201,7 +201,7 @@ max-width: 100%;
 
 }
 .new-sec-image{
-max-width: 50%;
+max-width: 70px;
 height: auto;
 align-self: flex-start;
 }
@@ -217,7 +217,7 @@ align-self: flex-start;
 .new-section-text{
     font-size:20px;
     margin: 0px;
-    max-width:100%;
+    /* max-width:79%; */
     /* padding-left: 8px; */
      color:#0062AD;
 }
@@ -229,10 +229,13 @@ align-self: flex-start;
     height: 65px;
 } */
 .new-section-img-two{
-    background-image: url(https://azurecomcdn.azureedge.net/cvt-0747fe673b2e8ca5993409bc08d252e543aa7f50e5fa3d6409c621fbdd48b5c7/images/page/home/empower.webp);
-    background-size: cover;
+    /* background-image: url(https://azurecomcdn.azureedge.net/cvt-0747fe673b2e8ca5993409bc08d252e543aa7f50e5fa3d6409c621fbdd48b5c7/images/page/home/empower.webp);
+    background-size: cover; */
     width:68px;
     height:89px
+}
+.new-section-image-to{
+    width:67px;
 }
 /* .new-section-image-three{
     background-image: url(https://azurecomcdn.azureedge.net/cvt-0747fe673b2e8ca5993409bc08d252e543aa7f50e5fa3d6409c621fbdd48b5c7/images/page/home/expert-help.webp);
@@ -749,11 +752,11 @@ body{
     flex-wrap: wrap;
 }
 .new-section-image-three{
-    width: 190px;
+    /* width: 190px; */
     height: auto;
 }
 .new-section-image-three-image{
-    width: 100%;
+    width: 67px;
     height: 100%;
     object-fit: contain;
 }
@@ -990,7 +993,7 @@ body{
         .new-section-text{
             font-size: 24px;
             padding-left: 0px;
-            min-width: 214px;
+            /* min-width: 214px; */
         }
         /* .new-section-first-element-text-container{
             position: absolute;
@@ -1252,9 +1255,9 @@ body{
         .anchor-tag{
             margin-left: 19px;
         }
-        .new-section-text{
+        /* .new-section-text{
             min-width: 187px;
-        }
+        } */
         .new-section-child-container h2{
             font-size: 24px;
         }
@@ -1295,16 +1298,22 @@ body{
         .new-setion-image-three{
             width: 100%;
         } 
-        .media-image{
+        /* .media-image{
             width: 110%;
-        }
+        } */
  
       }
     @media screen and (max-width:768px){
         .class-for-header-container-media{
             display:none;
         }
+        .anchor-tag-aftr-grid{
+            display: none;
+        }
         .media-image{
+            display: none;
+        }
+        .media-image-txt{
             display: none;
         }
     .ptag-text-bottom{
@@ -1364,6 +1373,9 @@ body{
     .background-imag{ 
       height: inherit;
       object-fit: cover;
+    }
+    .footer-flex-container{
+        flex-wrap: nowrap;
     }
     .anchor-tag-after-grid{
         text-align: end;
@@ -1564,15 +1576,16 @@ body{
         .next-section-container picture img{
             width: 124%;
             padding-right: 0px;
+          
         }
         .page-one{
             height: 100%;
-            width: 100%;
+            width: 93%;
             padding-left: 23px;
         }
         .page-two{
             height: 100%;
-            width: 100%;
+            width: 93%;
             padding-left: 23px;
         }
         .new-section-text{
@@ -1739,7 +1752,9 @@ body{
  @media screen and (min-width:1312px){
 
  .header-main-class{
-    padding: 0px 253px;
+    /* padding: 0px 253px; */
+    margin: 0 auto;
+    max-width: 1323px;
  }
  .content-after-picture-container{
     max-width: 77%;
@@ -1808,6 +1823,9 @@ body{
  }
  #iot{
     max-width:179px;
+ }
+ .new-section-image-three-image{
+    width: 111px;
  }
 
 }
@@ -1902,17 +1920,27 @@ body{
         max-width: 50%;
     }
 }
-/* @media screen and (min-width:769px) and (max-width:1242px){
-    .flex-test-container{
-        max-width: 164px;
+@media only screen and (max-width:1354px){
+    .header-align-left{
+        right: 71px;
     }
-    .new-section-text{
-        min-width: none;
+}
+@media screen and (min-width:769px) and (max-width:1282px){
+    .media-img-img{min-width: 146px;}
+    .new-section-image-three-image{
+        max-width: 146px;
+        width: auto;
+    }
+    .page-two{
+        padding-left:0px;
+    }
+    .media-image{
+        height:286px;
     }
     .new-section-image-three{
-        width: 190px;
+        height: 286px;
     }
-    .new-section-image-thre-image{
-        width: 92%;
+    .media-img-img{
+        padding-top: 20px;
     }
-} */
+}
