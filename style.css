@@ -213,7 +213,7 @@ max-width: 100%;
 .new-section-text{
     font-size:20px;
     margin: 0px;
-    max-width:72%;
+    max-width:100%;
     /* padding-left: 8px; */
      color:#0062AD;
 }
@@ -437,7 +437,7 @@ margin-bottom:-3px;
     padding-left: 2px;
 }
 .after-third-section{
-    padding:64px 0px;
+    padding:114px 0px;
 }
 .after-third-section-image{
     max-width: 100vw;
@@ -777,6 +777,8 @@ body{
        }
        .assure-text{
         padding-left: 14px;
+        font-size: 17px;
+        font-weight: 700;
        }
        .class-for-header-container-media{
         width: 100x;
@@ -969,7 +971,8 @@ body{
         .new-section-span{
             padding-right: 50px;
             display: inline-block;
-            width: 59px;
+            width: 51px;
+            text-align: left;
         }
         .new-section-class-for-text{
             margin-bottom: 0px;
@@ -1014,7 +1017,7 @@ body{
         }
         #class-button{
             font-size: 16px;
-            border-left: 4px solid blue;
+            border-left: 3.5px solid #0062AD;
         }
         .class-button{
             font-weight: 100;
@@ -1043,12 +1046,169 @@ body{
         .popular-div-secton{
             padding-left: 20px;
         }
-
-
+        .ancher-tag-after-grid{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: end;
+            padding-right: 15px;
+            padding-top: 11px;
+        }
+        .anchor-tag-grid-after{
+            color: #0062ad;
+            text-decoration: none;
+        }
+            #left-arrow{    padding-right: 16px;
+                padding-top: 2px;
+        }
+        .third-section-button-container{
+            padding-left: 227px;
+            padding-right: 205px;
+        }
+        .media-h2-cont{
+            display: flex;
+            flex-direction: column;
+            padding-left: 140px;
+            padding-right: 103px;
+        }
+        .after-third-section{
+            display: flex;
+            align-items: center;
+        }
+        .image-continer{
+            width: 41.6%;
+        }
+        .after-third-section-image{
+            width: 126%;
+            padding-left: 49px;
+        }
+        .h2-header-tag{
+            text-align: left;
+        }
+        .href-container{
+            align-self: flex-start;
+        }
+        .h2-header-tag{
+            padding: 0px 0px;
+        }
+        .image-slider{
+            width: 100%;
+        }
+        .slider-grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 30px;
+            row-gap: 24px;
+            padding: 20px 16px;
+        }
+        .flex-container{
+           max-width: 100%;
+        }
+        .for-slider{
+            display: none;
+        }
+        .section-five{
+            padding-bottom:60px;
+        }
+        #flex-container{
+            width: 100%;
+            position: relative;
+        }
+        .full-width-image{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .absolute-text{
+            position: absolute;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.6;
+            padding:92px 32px 6px 12px;
+        }
+        .href-tag-column-three{
+            text-decoration: none;
+            color: #2e2e33;
+        }
+        .for-padding-slider{
+            padding-bottom: 15px;
+        }
+        #test-absolute-thrd{
+            padding-bottom: 10px;
+            padding-top:72px
+            }
+        .image-after-slider{
+            width: 100%;
+            height:51vw;
+            object-fit: cover;
+        }
+        .round-video-button-section-five{
+            left: 47%;
+        }
+        .section-five-after-slider{
+            display: none;
+        }
+        .gamer-background{
+            width:100%;
+            height: auto;
+            position: relative;
+        }
+        .background-gamer{
+            width: 100%;
+        }
+        .round-video-button-section-five{
+            width:73px;
+            height:73px;
+            background-color:#fff;
+            position: absolute;
+            border:none;
+            left:48%;
+            border-radius: 100%;
+            top:35%;
+        }
+        .ptag-section-five{
+            max-width: 100%;
+            margin-top: 0px;
+            margin-bottom: 45px;
+        }
+        .ptag-section-5-container{
+            padding-bottom: 94px;
+        }
+        .test-media-section-six{
+            font-size: 16px;
+            color:#fff;
+        }
+        .image-section-six{
+            position: initial;
+            height:48px;
+            width: 48px;
+        }
+        .section-five-element{
+            flex-direction: column;
+            padding: 24px 24px 10px 24px;
+        }
+        .section-six{
+            height: 614px;
+        }
+        .anchor-tag-section-six{
+            padding-top: 21px;
+            max-width: none;
+        }
+        .anchor-tag{
+            margin-left: 19px;
+        }
+        .new-section-text{
+            min-width: 187px;
+        }
+        .new-section-child-container h2{
+            font-size: 24px;
+        }
+  
+        
       }
-
-    
-    
     @media screen and (max-width:768px){
         .class-for-header-container-media{
             display:none;
@@ -1065,8 +1225,16 @@ body{
         .section-after-grid-container{
             text-align:center;
              margin-top: 39px;
+            } 
+            .for-hiding-slider{
+                display: none;
             }
-
+            .gamer-background{
+                display: none;
+            }
+            .test-media-section-six{
+                display: none;
+            }
 
         /* .header-span-windows-icon{
             display:none
