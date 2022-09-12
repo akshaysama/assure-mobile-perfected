@@ -101,7 +101,7 @@ max-width: 100%;
 .content-after-picture-container{
     background-image:url(Images/hero-image-color.png);
     background-size: cover;
-    padding: 36px;
+    padding: 68px 0px;
     margin-top: -4px;
     text-align: center;
 }
@@ -732,7 +732,7 @@ body{
         text-align: left;
     }
 }
-@media only screen and (min-width:769px){
+@media only screen and (min-width:768px){
     .hamberger-menu-button{
         display:none;
     }
@@ -815,9 +815,6 @@ body{
         flex-direction: row;
         padding-right: 10px;
       }
-      .getting-started-container{
-        flex-direction: row;
-      }
       .span-svg-container{
         padding-right: 29px;
       }
@@ -864,31 +861,10 @@ body{
       .row-two{
         padding:0px 0px;
       }
-      .row-three{
-        padding:0px 0px;
-        text-align: left;
-      }
       .assure-text-left-container{
         padding:0px 0.9375rem;
-        text-align: left;
       }
-      .row-two-h1-tag{
-        min-width: 481px;
-        max-width: 481px;
-      }
-      .try-azure-for-free-container{
-        width: 134px;
-        margin-top: 0px;
-        padding-top: 9px;
-        padding-right: 7px;
-        margin-left: 26px;
-      }
-      .text-white{
-        padding: 10px 13px 10px 8px;
-        width: 12%;
-        height: 24px;
-        margin-left: 18px;
-      }
+  
       .try-azure-for-free{
         padding-left: 3px;
       }
@@ -1219,7 +1195,7 @@ body{
             max-width: 77%;
         }
       }
-    @media screen and (max-width:768px){
+    @media screen and (max-width:767px){
         .class-for-header-container-media{
             display:none;
         }
@@ -1651,7 +1627,7 @@ body{
             height: 100%;
         }
     }
-    @media only screen and (min-width:761px) and (max-width:960px){
+    @media only screen and (min-width:769px) and (max-width:960px){
         .assure-text-left-container{
             max-width: 69%;
         }
@@ -1780,9 +1756,9 @@ body{
     margin: 0 auto;
     max-width: 1323px;
  }
- .content-after-picture-container{
+ /* .content-after-picture-container{
     max-width: 77%;
- }
+ } */
  .tab-view-contain{
     overflow-x: hidden;
     padding:0px 257px
@@ -1948,7 +1924,7 @@ body{
         max-width: 50%;
     }
 }
-@media screen and (min-width:769px) and (max-width:1282px){
+@media screen and (min-width:768px) and (max-width:1282px){
     .media-img-img{min-width: 146px;}
     .new-section-image-three-image{
         max-width: 146px;
@@ -1967,7 +1943,7 @@ body{
         padding-top: 20px;
     }
 }
-@media only screen and (min-width:420px) and (max-width:761px){
+@media only screen and (min-width:420px) and (max-width:767px){
     .try-azure-for-free-container{
         width: 66%;
     }
@@ -1986,4 +1962,41 @@ body{
     .header-align-left{
         right: 64px;
     }
+}
+@media only screen and (max-width:768px){
+    .try-azure-for-free-container {
+        width: 66%;
+    }
+    .gamer-background-box-container{
+        display: none;
+    }
+}
+@media only screen and (min-width:769px){
+    .assure-text-left-container{
+        text-align: left;
+    }
+    .row-two-h1-tag{
+        min-width: 481px;
+        max-width: 481px;
+      }
+      .row-three{
+        padding:0px 0px;
+        text-align: left;
+      }
+      .text-white{
+        padding: 10px 13px 10px 8px;
+        width: 91px;
+        height: 24px;
+        margin-left: 18px;
+      }
+      .getting-started-container{
+        flex-direction: row;
+      }
+      .try-azure-for-free-container{
+        width: 134px;
+        margin-top: 0px;
+        padding-top: 9px;
+        padding-right: 7px;
+        margin-left: 26px;
+      }
 }
