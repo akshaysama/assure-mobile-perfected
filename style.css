@@ -708,8 +708,8 @@ padding-left: 15px;
     background-color: #0078d4;
     position: fixed;
     bottom: 0px;
-    left: 47%;
-    width:49%;
+    right:14px;
+    width:155px;
     height: 44px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -729,6 +729,9 @@ body{
     content:'\002B';
     font-size:20px;
     color:#4c4c51;
+}
+.section-after-grid-container{
+    text-align:center; margin-top: 39px;
 }
 @media only screen and (min-width:769px){
     .hamberger-menu-button{
@@ -971,9 +974,74 @@ body{
         .new-section-class-for-text{
             margin-bottom: 0px;
         }
+        #hide{
+            display: none;
+        }
+        .section-image-after-grid-container{
+            display: none;
+        }
+
+        #hidden{
+            display: none;
+        }
+        .grid{
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        .tab-view-contain{
+            flex-direction: row-reverse;
+            display: flex;
+        }
+        .grid-element-ptag{
+            line-height: 1.5;
+            margin:12px 8px;
+        }
+        .after-grid-box{
+            width:186px;
+            height:60px;
+        }
+        .second-class-popular{
+            padding: 0px;
+            margin-bottom: 0px;
+            box-shadow: none;
+        }
+        .black-arrow-popular-no-view{
+            display: none;
+        }
+        .black-arrow-popular{
+            display: none;
+        }
+        #class-button{
+            font-size: 16px;
+        }
+        .class-button{
+            font-weight: 100;
+            color: #4c4c51;
+        }
+        .grid{
+            column-gap: 30px;
+            row-gap: 24px;
+        }
+        .section-grid{
+            padding: 24px;
+            height: 255px;
+        }
+        #iot{
+            width: 132px;
+            text-align: left;
+        }
+        .section-after-grid-container{
+            text-align: left;
+            margin-top: 16px;
+            padding-left: 6px;
+        }
+        .popular-div-secton{
+            padding-left: 15px;
+        }
 
 
       }
+
     
     
     @media screen and (max-width:768px){
@@ -983,9 +1051,17 @@ body{
         .media-image{
             display: none;
         }
-        .ptag-text-bottom{
+    .ptag-text-bottom{
             display: none;
         }
+        #hide-one{
+            display: none;
+        }
+        .section-after-grid-container{
+            text-align:center;
+             margin-top: 39px;
+            }
+
 
         /* .header-span-windows-icon{
             display:none
